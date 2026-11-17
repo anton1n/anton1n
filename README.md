@@ -20,6 +20,7 @@ I like building things that run outside a notebook: EEG models that drive real r
 
 - 🧠 **Now:** cross-subject EEG motor imagery classification and real-time brain-computer interfaces
 - 🛠️ **Building:** Python backends with FastAPI and Django, containerized with Docker
+- 🤖 **Tooling:** [context-kit](https://github.com/anton1n/context-kit), my open-source Claude Code plugin for AI-assisted development
 - 📄 **Published:** two first-author conference papers on deep learning for EEG and edge AI
 - 🎯 **Looking for:** internships and junior roles in ML engineering or Python backend development
 
@@ -29,6 +30,7 @@ I like building things that run outside a notebook: EEG models that drive real r
 |---|---|---|
 | [**EEGTCNet**](https://github.com/anton1n/cnn-transformer-eeg) | CNN-Transformer for cross-subject EEG motor imagery classification. **80.8% leave-one-subject-out accuracy** on PhysioNet (109 subjects), with layer-wise fine-tuning to adapt to new users. Published at KES 2026. | PyTorch, MNE, scikit-learn, Braindecode |
 | [**TraViMo BCI platform**](https://github.com/anton1n/Licenta_Iva_Antonin) | My Bachelor's thesis, part of the [TraViMo / TRAVEE](https://travee.upb.ro/en/home-page/) post-stroke rehabilitation project. OpenVibe plugins for motor-imagery sessions and EEG streaming, plus a real-time classifier served over TCP. | C++, CMake, Python, OpenVibe |
+| [**context-kit**](https://github.com/anton1n/context-kit) | Claude Code plugin (MIT). Sets up 5 AI developer tools in one command, including an MCP server; exports and imports a project's agent context (sessions, memory, plans) across machines with secret redaction; keeps agent memory inside the repo through a SessionStart hook. | Bash, Claude Code plugins, MCP |
 | [**Events platform with RBAC**](https://github.com/anton1n/rails_events_rbac_webapp) | Microservices system with an identity server, JWT authentication and role-based access control. Services communicate over gRPC. | Ruby on Rails, gRPC, MongoDB, TypeScript, Docker Compose |
 | [**MacBook SPI / Touch Bar driver**](https://github.com/anton1n/macbook12-spi-driver) | Fork of the Linux input driver for 2015–2018 MacBooks. Adds Linux 6.18 and clang/LTO kernel support and fixes the Touch Bar after suspend. | C, Linux kernel |
 | [**ATV630 Modbus controller**](https://github.com/anton1n/practicaFulminis) | Modbus TCP controller and web interface for a Schneider ATV630 industrial drive, with MkDocs documentation. | Python, Modbus TCP |
@@ -49,6 +51,11 @@ I like building things that run outside a notebook: EEG models that drive real r
 <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
 <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter">
+
+**AI tooling**<br>
+<img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code">
+<img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol">
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face">
 
 **Backend**<br>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
